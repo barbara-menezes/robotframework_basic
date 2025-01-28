@@ -28,7 +28,7 @@ Verificar se aparece a frase "${TEXTO}"
     Wait Until Page Contains    text=${TEXTO}
     Wait Until Element Is Visible    locator=${HEADER_ELETRONICOS}
 
-Verificar se o títuo da página fica "${TITULO}"
+Verificar se o título da página fica "${TITULO}"
     Title Should Be    title=${TITULO}
 
 Verificar se aparece a categoria "${NOME_CATEGORIA}"
